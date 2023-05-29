@@ -1,0 +1,76 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.corpo {
+  background-color: rgb(24, 61, 60);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.titulo {
+  color: rgb(29, 255, 183);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.letras {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  text-align: center;
+}
+
+.botao {
+  background-color: rgb(29, 255, 183);
+  color: rgb(24, 61, 60);
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fundo1 {
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 35vh;
+}
+
+.fundo2 {
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 50vh;
+}
+
+.campo {
+  background-color: rgb(29, 255, 183);
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  width: 120%;
+}

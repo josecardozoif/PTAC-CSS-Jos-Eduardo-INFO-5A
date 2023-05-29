@@ -1,0 +1,16 @@
+{
+    "alunos": [
+        {
+            "id": 1,
+            "nome": "José Eduardo",
+            "num_inscricao": 1003,
+            "curso": "Informática"
+        },
+        {
+            "id": 2,
+            "nome": "Patrício Aparecido",
+            "num_inscricao": 1004,
+            "curso": "Agropecuária"
+        }
+    ]
+}
