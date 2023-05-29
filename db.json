@@ -1,16 +1,22 @@
 {
-    "alunos": [
-        {
-            "id": 1,
-            "nome": "José Eduardo",
-            "num_inscricao": 1003,
-            "curso": "Informática"
-        },
-        {
-            "id": 2,
-            "nome": "Patrício Aparecido",
-            "num_inscricao": 1004,
-            "curso": "Agropecuária"
-        }
-    ]
+  "alunos": [
+    {
+      "nome": "Filipe",
+      "curso": "Informática",
+      "num_inscricao": "1003",
+      "id": 3
+    },
+    {
+      "nome": "Patrício",
+      "curso": "Agropecuária",
+      "num_inscricao": "1004",
+      "id": 3
+    },
+    {
+      "nome": "José",
+      "curso": "Informática",
+      "num_inscricao": "1005",
+      "id": 3
+    }
+  ]
 }

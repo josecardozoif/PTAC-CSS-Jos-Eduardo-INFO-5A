@@ -18,17 +18,17 @@ export default async function Home() {
       })
       router.refresh()
     } catch {
-      alert.arguments("Não foi possivél remover!")
+      alert.arguments("Não foi possível remover!")
     }
   }
   return (
     <main className={styles.main}>
       <body className={styles.corpo}>
-      <a className={styles.titulo}><Link href="/cadastro">──── CADASTRAR ────</Link></a>
+      <a className={styles.titulo}><Link className={styles.titulo} href="/cadastro">──── CADASTRAR ────</Link></a>
       {alunos.map(aluno => (
         <div className={styles.fundo1} key={aluno.id}>
-          <p className={styles.letras}>{aluno.nome}</p>
-          <p className={styles.letras}>{aluno.curso}</p>
+          <p className={styles.letras1}>{aluno.nome}</p>
+          <p className={styles.letras2}>{aluno.curso}</p>
           <button className={styles.botao} onClick={e => e.preventDefault(remover(aluno.id))}>REMOVER</button>
         </div>
       ))}

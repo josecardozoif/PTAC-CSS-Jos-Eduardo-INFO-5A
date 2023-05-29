@@ -33,8 +33,8 @@ export default function Cadastro() {
         <main className={styles.main}>
         <body className={styles.corpo}>
             <div className={styles.fundo2}>
-            <form action='' onSubmit={cadastrar}>
-                <h1 className={styles.titulo}>
+            <form className={styles.fundo2} action='' onSubmit={cadastrar}>
+                <h1 className={styles.titulo2}>
                 ──── CADASTRAR ────
                 </h1>
                 <input className={styles.campo} placeholder='INFORME O NOME DO ALUNO' nome="nome" type="text"
@@ -46,9 +46,9 @@ export default function Cadastro() {
                 <input className={styles.campo} placeholder='INFORME Nº DE INSCRIÇÃO' nome="num_inscricao" type="number"
                     onChange={e => setNum_inscricao(e.target.value)}></input><br/>
                 <button className={styles.botao} type='submit'>CADASTRAR</button>
-                <a className={styles.letras} href='/'>Voltar</a>
+                <a className={styles.letras3} href='/'>Voltar</a>
             </form>
-            </div>s
+            </div>
         </body>
         </main>
     );
